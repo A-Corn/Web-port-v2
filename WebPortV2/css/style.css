@@ -1,0 +1,191 @@
+/* General CSS */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background: #f2bc94;
+    color: black;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Links */
+
+a {
+    text-decoration: none !important;
+    color: #999999;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: white !important;
+}
+
+img {
+    max-width: 100%;
+}
+/* Navbar */
+
+.navbar {
+    position: relative;
+    background: #722620;
+    height: 5rem;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler:focus {
+    color: black;
+    box-shadow: 0 0 0 2px;
+}
+
+.navbar ul li {
+    position: relative;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    position: relative;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+/* Banner Content */
+
+.banner-section {
+    position: relative;
+}
+
+.banner-section .banner-title {
+    position: relative;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.banner-section .banner-desc {
+    padding-bottom: 10rem;
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.banner-section .banner-btn {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: dimgrey;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* About */
+
+.about-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-section .about-title {
+    position: relative;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: "poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.about-section .about-desc {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Portfolio */
+
+.portfolio-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.portfolio-section .port-title {
+    position: relative;
+    padding-top: 3rem;
+    font-family: "poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.portfolio-section .port-role,
+.portfolio-section .port-job {
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #722620;
+}
+
+.portfolio-section .port-desc {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Footer */ 
+
+.footer {
+    position: relative;
+    padding-top: 50px;
+    background: #722620;
+}
+
+.footer .social-media .footer-list {
+    position: relative;
+    margin: 0 0 20px 0;
+    display: inline-block;
+}
+
+.footer .social-media .footer-list li {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer .social-media .footer-list li a {
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    color: black;
+}
